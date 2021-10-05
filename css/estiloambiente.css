@@ -1,0 +1,79 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(77, 74, 72);
+    font: 1.2rem;
+    line-height: 1.4em;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em; /*espacio entre las lineas de texto*/
+
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px; /*sera el maximo ancho que tendra los contenedores*/
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(6, 12, 92);
+    color: rgb(248, 241, 241);
+    padding: 2rem 0;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between; /*separa el logo y la lista hacia los lados*/
+    align-items: center;
+}
+
+header a{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+
+}
+
+.navigator ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigator ul li{
+    display: inline-flex;
+    margin: 3px;
+}
+
+.navigator ul li a{
+    padding: 0.3rem 1rem;
+    transition: all 0.7s linear;
+    border-radius: 3px;
+}
+
+.navigator ul li a:hover{
+    background: #4a4a4a;
+}
+
+
+.footer{
+    background: #f2f2f2;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main{
+    padding-top: 10rem;
+}
+
+h1{
+    margin: 5px;
+    padding: 5px;
+}
